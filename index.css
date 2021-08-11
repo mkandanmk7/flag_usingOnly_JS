@@ -1,0 +1,38 @@
+:root {
+  font-size: 20px;
+}
+body {
+  background-color: rgb(246, 248, 246);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  box-shadow: 2px 5px 10px #7e7932;
+  max-width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px;
+}
+.flag {
+  height: 10rem;
+  width: 100%;
+  transition: 1s;
+}
+
+.info {
+  padding: 10px;
+  justify-content: center;
+}
+.side-heading {
+  font-weight: bold;
+  justify-content: center;
+}
+.flag:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
